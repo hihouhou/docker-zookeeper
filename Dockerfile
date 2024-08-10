@@ -7,7 +7,7 @@
 # Pull base image.
 FROM debian:latest
 
-MAINTAINER hihouhou < hihouhou@hihouhou.com >
+LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
 ENV ZOOKEEPER_VERSION=3.7.1
 
